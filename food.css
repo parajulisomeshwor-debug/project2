@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+p{line-height: 1.7;}
+body{
+      font-family: "Roboto", sans-serif;
+      overflow-x: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+}
+
+.container {
+    margin: auto;
+    width: 1280px;
+}
+
+.flex {
+    display: flex;
+}
+
+.jc {
+    justify-content: space-between;
+}
+
+.ai {
+    align-items: center;
+}
+
+.gap {
+    gap: 20px;
+}
+
+.p {
+    padding: 30px 0;
+}
+header span{
+    color: #F46A06;
+}
+.btn
+{
+    background: #F46A06;
+    padding: 10px  24px;
+    color: white    ;
+    border: none;
+}
+.banner-left{
+    width: 650px;
+}
+.banner-left h1{
+    font-size: 48px;
+    line-height: 50px;
+
+}
+.banner-left p{
+    color: #555555;
+    padding: 30px 0;
+}
+.counter
+{
+    background: #F46A06;
+    padding: 40px 0;
+    color: white;
+    text-align: center;
+
+}
+.featured
+{
+    padding: 80px;
+    position: relative;
+}
+.shape
+{
+    position: absolute;
+    right: -20px;
+    top: -60px;
+}
+.story
+{
+    background-image: url(Watch\ Our\ Story.jpg);
+    background-size: 100% 100%;
+    padding: 50px 0;
+    text-align: center;
+    color: white;
+}
+.story_container
+{
+    width: 700px;
+     
+}
+.story h1
+{
+    color: #F46A06;
+}
+.explore{
+    text-align: center;
+}
+.title{
+    width: 700px;margin: auto;
+}
